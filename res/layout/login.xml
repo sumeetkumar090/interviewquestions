@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/brown"
+    android:orientation="vertical"
+    tools:context=".login" >
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="  Press  Your  Choice  ? "
+        android:textColor="#ffffffff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/reltive_top"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_margin="10dp"
+        android:layout_weight="2"
+        android:background="@drawable/book" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/reltive_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reltive_top"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp" >
+
+        <RelativeLayout
+            android:id="@+id/linerl1"
+            android:layout_width="fill_parent"
+            android:layout_height="115sp" >
+
+            <Button
+                android:id="@+id/imageButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/center_gap1"
+                android:background="@drawable/first_selector"
+                android:onClick="CLang"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:text="C Language"
+                android:textAlignment="center"
+                android:textColor="@android:color/white" />
+
+            <RelativeLayout
+                android:id="@+id/center_gap1"
+                android:layout_width="4dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" >
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/center_gap1"
+                android:background="@drawable/second_selector"
+                android:onClick="Java"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:text="JAVA"
+                android:textAlignment="center"
+                android:textColor="@android:color/white" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/linerl2"
+            android:layout_width="fill_parent"
+            android:layout_height="115sp"
+            android:layout_below="@+id/linerl1"
+            android:layout_marginTop="4dp" >
+
+            <Button
+                android:id="@+id/imageButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/center_gap2"
+                android:background="@drawable/third_selector"
+                android:onClick="Android"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:text="ANDROID"
+                android:textAlignment="center"
+                android:textColor="@android:color/white" />
+
+            <RelativeLayout
+                android:id="@+id/center_gap2"
+                android:layout_width="4dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" >
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/imageButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/center_gap2"
+                android:background="@drawable/fourth_selector"
+                android:onClick="DataS"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:text="DATA STRUCTURE"
+                android:textAlignment="center"
+                android:textColor="@android:color/white" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

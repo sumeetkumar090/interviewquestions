@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+android:id="@+id/LinearLayout01" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+>
+<TextView
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:textSize="20dip"
+android:scrollbars="vertical"
+android:text=" For any help and queries. \n Please contact \n Sumeet Kumar
+    \n Mobile : +91 709 022 3339.\n  Email : sumeet.kumar1511@gmail.com\n
+    Stack Overflow: http://stackoverflow.com/users/5924295/sumeet-kumar \n
+    Blog : https://sumeetkumarblog.wordpress.com/ \n
+    Application Developed By:\n Sumeet Kumar\n Software Developer\n" />
+	
+</RelativeLayout>
+
